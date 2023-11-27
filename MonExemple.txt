@@ -1,0 +1,81 @@
+ < ! docprogram Hey> 
+   < SUB VARIABLE> 
+      < tll AS CHR/>;
+      < Dt|y|i|u|a|P|id|p|l|x|taille AS INT/>;
+      
+      < chaine AS STR/>;
+      < reel|reel2 AS FLT/>;
+      <ARRAY AS INT>
+         <tab:5/>
+         <TABLEAU:90/>
+         <idf:4/>
+      < /ARRAY>
+      < SUB CONSTANTE> 
+         < lf = (-2.5)/>;
+         < lk = 6.5/>;
+         < Zer= 0/>;
+         < bool2= TRUE/>;
+         < Dim = 6/>;
+      < /SUB CONSTANTE> 
+      < b|t|j|o AS INT/>;
+      < Logique|MonBool AS BOL/>;
+      < SUB CONSTANTE> 
+         < tt AS INT/>;
+         < v AS CHR/>;
+         < booleen AS BOL/>;
+      < /SUB CONSTANTE> 
+      <ARRAY AS FLT>
+         <ta:Dim/>
+      < /ARRAY>
+   </SUB VARIABLE> 
+   < body> 
+      <DO> 
+         <AFF: idf[2],((a- 9)*(a- 9)*(u*o- (-8))) /> 
+         <AFF: TABLEAU[a],3 /> 
+         <INPUT : a "donner la  valeur de a : $"/> 
+         <AFF: reel,(a*277.999)/> 
+         <INPUT : chaine "donner la  valeur de chaine: #"/> 
+      <WHILE : AND(INF(o,2202),SUP((tab[1]+p),b)) /> 
+      </DO> 
+      <AFF: Logique,NOT(AND(AND(EGA(a,3),SUP((9+p),b)),TRUE)) /> 
+      <INPUT : reel "donner la  valeur de reel: %"/> 
+      <OUTPUT: " THIS IS MY code" /> 
+      <OUTPUT: "le premier chiffre:$:"+a+"le 2eme chiffre: %"+reel /> 
+      <OUTPUT: "a est :$"+a+"reel est: % "+reel+"o est: $"+o+"a est: $"+a+"reel est: % "+reel+"o est: $"+o/> 
+      <IF: OR(EGA(a,303),SUP(7,b))> 
+      <THEN> 
+         <AFF: reel,(p+7)/((Zer+999*1- 4)*(o- 7))/> 
+         <AFF: reel2,(u+9*0)/(9*99) /> 
+         <INPUT : Logique "donner la  valeur de booleen Logique: @"/>
+         <AFF: chaine,"hello"/> 
+      </THEN> 
+      <ELSE>  
+         <AFF: v,'y' /> 
+          <AFF: y,i />
+            <DO> 
+               <AFF: reel,(-3.2)/>  
+               <AFF: reel,(-22.5)/>
+               <DO> 
+                  <AFF: reel,(-2995.6)/>
+                  <WHILE : SUPE(P,2009) /> 
+               </DO> 
+               <WHILE : SUPE(P,2009) /> 
+            </DO> 
+          <AFF: y,(-23)/>  
+         <AFF: Logique,NOT(AND(TRUE,MonBool))/> 
+         <AFF: ta[taille], (x+7)/(9*5)/>
+         <FOR P=2 UNTIL 20> 
+            <OUTPUT:"condition  verifiee" /> 
+            <AFF: Logique, SUP(o,p) />
+            <AFF: booleen,FALSE/>
+         </FOR>
+      </ELSE> 
+      </IF> 
+      <IF: NOT(SUP(10,60))> 
+      <THEN> 
+         <OUTPUT :"Fin de notre projet compile M1 IL "/>
+         <AFF: id,2022/> 
+      </THEN> 
+      </IF>
+   </body> 
+ </ docprogram > 
